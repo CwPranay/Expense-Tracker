@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from 'react'
 import Header from './components/header'
 import Balance from "./components/Balance"
 import './App.css'
