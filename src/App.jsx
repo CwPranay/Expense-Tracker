@@ -7,6 +7,8 @@ import IncomeExpenses from './components/IncomeExpenses'
 import TransactionHistory from './components/TransactionHistory'
 import AddTranscation from './components/AddTranscation'
 import {GlobalProvider} from "./Context/GlobalState"
+import './index.css';
+
 
 function App() {
   
@@ -16,10 +18,12 @@ function App() {
     <GlobalProvider>
     <Header/>
     <div className="container">
+    <div className="content">
       <Balance/>
       <IncomeExpenses/>
       <TransactionHistory/>
       <AddTranscation/>
+      </div>
       
     </div>
 
